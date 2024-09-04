@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Ishan Trivedi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Fullscreen Intro Section -->
+    <header class="intro">
+        <div class="intro-content">
+            <h1>Ishan Trivedi</h1>
+            <p>Software Developer</p>
+            <div class="social-links">
+                <a href="https://github.com/IshanTrivedi13" target="_blank">
+                    <img src="https://static-00.iconduck.com/assets.00/github-icon-512x497-oppthre2.png" alt="GitHub" width="30">
+                </a>
+                <a href="https://www.linkedin.com/in/ishan-trivedi1313/" target="_blank">
+                    <img src="https://static.vecteezy.com/system/resources/previews/023/986/970/original/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.png" alt="LinkedIn" width="40">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Hi, I'm Ishan Ushanas Trivedi, a passionate software developer with a strong foundation in various programming languages and technologies. Currently pursuing my B.Tech in Computer Science and Engineering from SRM Institute of Science and Technology, I have honed my skills through coursework in Object Oriented Programming, Databases, Data Structures and Algorithms, Operating Systems, and Computer Networks.</p>
+        <p>I am experienced in developing applications that solve real-world problems. My technical expertise spans across languages like C/C++, C#, Python, SQL, and tools such as ServiceNow, Unity Engine, and Flutter. I'm always eager to learn and take on new challenges, with a focus on creating impactful and user-friendly software solutions.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3><a href="https://github.com/IshanTrivedi13/Whack-a-stroke" target="_blank">Gamification of Stroke Treatment</a></h3>
+            <p>Developed an application comprising six games designed to assist in stroke treatment by enhancing patients' reaction times and memory. This project showcases my ability to blend technology with healthcare needs using C#, Unity Engine, and Adobe Illustrator.</p>
+        </div>
+        <div class="project">
+            <h3><a href="https://github.com/Quarkblue/MotionCapture" target="_blank">Motion Capture Game for Therapy</a></h3>
+            <p>Created a 3D game that leverages motion capture technology for physiotherapy and balance exercises aimed at elderly people. The game uses the user’s movements as input, demonstrating my proficiency in C#, Unity 3D, MediaPipe, and UDP protocols.</p>
+        </div>
+        <div class="project">
+            <h3><a href="https://github.com/shree1767/Cyclopsys" target="_blank">OCR Text-To-Speech Application</a></h3>
+            <p>Built a Flutter-based mobile application that provides Optical Character Recognition and Text-to-Speech services for visually impaired users. This project highlights my skills in Flutter, Dart, and Google ML Kit, emphasizing my commitment to accessibility and user-centric design.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="contact-container">
+            <div class="contact-text">
+                <h2>Contact Me</h2>
+                <p>I'm always open to new opportunities, collaborations, and discussions about innovative projects. Feel free to reach out to me via email.</p>
+            </div>
+            <form id="contact-form">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="feedback">Feedback:</label><br>
+                <textarea id="feedback" name="feedback" rows="4" required></textarea><br>
+                <button type=" submit" class="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn">
+        &#8679;
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
